@@ -1,0 +1,16 @@
+[project]
+name = "dspy-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix-otel>=0.12.1",
+    "dspy>=2.6.27",
+    "openinference-instrumentation-dspy>=0.1.25",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]

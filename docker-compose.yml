@@ -1,0 +1,6 @@
+services:
+  phoenix:
+    image: arizephoenix/phoenix:version-11.1.0
+    ports:
+      - 6006:6006
+    
