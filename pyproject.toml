@@ -8,6 +8,7 @@ dependencies = [
     "arize-phoenix-otel>=0.12.1",
     "dspy[mcp]>=3.0.0b2",
     "openinference-instrumentation-dspy>=0.1.25",
+    "pandas>=2.3.1",
 ]
 
 [dependency-groups]
